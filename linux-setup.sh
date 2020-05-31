@@ -52,7 +52,7 @@ apt install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 #append settings to zshrc
-echo "alias zshreload=\"source ~/.zshrc" >> ~/.zshrc
+echo "alias zshreload=\"source ~/.zshrc" >> ~/.zshr
 echo "\n" >> ~/.zshrc
 echo "#Swift\n" >> ~/.zshrc
 echo "export PATH=/usr/bin/swift/usr/bin:\"${PATH}\"" >> ~/.zshrc
