@@ -1,10 +1,10 @@
 #!/bin/sh
 #Linux Setup sh
+
+#FlatPak Flathub
 sudo apt install flatpak
 sudo apt install gnome-software-plugin-flatpak
 flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
-
-#FlatPak Flathub
 
 #Swift
 
@@ -26,6 +26,7 @@ apt-get install \
           tzdata \
           zlib1g-dev \
           vim
+
 #download swift zip from https://swift.org/builds/development/ubuntu2004/swift-DEVELOPMENT-SNAPSHOT-2020-05-26-a/swift-DEVELOPMENT-SNAPSHOT-2020-05-26-a-ubuntu20.04.tar.gz
 #unzip
 #place in /usr/bin
@@ -35,13 +36,15 @@ git config --global user.email "jossferatu@gmail.com"
 git config --global user.name "Joss Manger"
 git config --global core.editor "vim"
 
-
 #Libs
 apt install curl
 apt install zsh
 
-#Atom
+#flatpak
 flatpak install flathub io.atom.Atom
+flatpak install flathub org.gnome.Builder
+flatpak install flathub org.blender.Blender
+flatpak install flathub com.valvesoftware.Steam
 
 #zsh
 apt install curl
