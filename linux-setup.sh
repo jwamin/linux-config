@@ -52,10 +52,10 @@ apt install zsh
 sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 #append settings to zshrc
-.zshrc >> "alias zshreload=\"source ~/.zshrc\n"
-.zshrc >> "\n"
-.zshrc >> "#Swift\n"
-.zshrc >> "export PATH=/usr/bin/swift/usr/bin:\"${PATH}\""
+~/.zshrc >> "alias zshreload=\"source ~/.zshrc\n"
+~/.zshrc >> "\n"
+~/.zshrc >> "#Swift\n"
+~/.zshrc >> "export PATH=/usr/bin/swift/usr/bin:\"${PATH}\""
 
 #Run always
 screenfetch
